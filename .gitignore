@@ -1,0 +1,39 @@
+# Environment and dependency folders
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+uv.lock/
+
+# Secrets
+.env
+
+# LangGraph specific
+.langgraph_api/
+langgraph.json
+
+# VS Code settings
+.vscode/
+
+# Python specific
+.python-version
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs or outputs
+*.log
+
+# Test images or temporary files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Ignore everything in node_modules if added
+node_modules/
+
+# Pydantic cache or compiled settings
+*.pyd
+*.so
